@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>турнир- футбол </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="#" class="logo">матч</span></a>
+
+    <nav>
+        <a href="#agenda">ПРОГРАММА</a>
+        <a href="#speakers">Тренера  </a>
+        <a href="#about">О СОБЫТИИ</a>
+        <a href="#tickets">БИЛЕТЫ</a>
+    </nav>
+
+    <a href="#register" class="nav-button">РЕГИСТРАЦИЯ</a>
+</header>
+
+<main>
+
+    <!-- ГЛАВНЫЙ ЭКРАН -->
+    <section class="hero">
+        <div class="hero-text">
+            <div class="small-label">матч</div>
+
+            <h1Д>Турнир по футболу <br>
+                <span>для команд КР</span>
+            </h1>
+
+            <p>
+              Матч против сильнейших команд на первое место  
+            </p>
+
+            <a href="#register" class="blue-button">Зарегистрироваться ↗</a>
+        </div>
+
+    </section>
+
+    <!-- КАРТОЧКИ -->
+    <section class="features">
+        <div class="feature-card blue-card">
+            <span>01 /команды</span>
+            <h3>команды из биша</h3>
+            <h4>команды из облостей</h4>
+            <p>самые сильные команды</p>
+            <div class="mini-avatars">
+            
+            </div>
+        </div>
+
+        <div class="feature-right">
+            <div class="feature-card blue-card">
+                <span>02 /АДМИНИСТРАТОРЫ</span>
+                <h3>самые лушие администраторы</h3>
+                <p>из бишкека </p>
+            </div>
+
+            <div class="feature-card white-card">
+                <span>03 /судьи</span>
+                <h3>собрали самых луших судей</h3>
+                <p>самые компетентные судьи</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПРОГРАММА -->
+    <section class="section" id="agenda">
+        <div class="section-heading">
+            <h2>матч <span>.</span></h2>
+            <p>турнир против сильнейших команд</p>
+        </div>
+
+        <div class="agenda-box">
+
+            <div class="agenda-row">
+                <div class="agenda-date">
+                    <strong> 01</strong>
+                    <span>манас- илбирс  </span>
+                </div>
+
+                <div class="agenda-info">
+                    <h3>манас и илбирс  </h3>
+                    <p>обе команды из лиги юнеры </p>
+                </div>
+            </div>
+
+            <div class="agenda-row">
+                <div class="agenda-date">
+                    <strong>02</strong>
+                    <span>мурас-кочкор </span>
+                </div>
+
+                <div class="agenda-info">
+                    <h3>мурас и кочкор </h3>
+                    <p>обе команды из начинающих </p>
+                </div>
+            </div>
+
+            <div class="agenda-row">
+                <div class="agenda-date">
+                    <strong> 03</strong>
+                    <span>победивший 1 матча и победитель 2 матча</span>
+        
+                </div>
+            </div>
+            <a href="#register" class="blue-button">Полная программа ↗</a>
+        </div>
+    </section>
+
+    
+
+    <!-- ПОЧЕМУ СТОИТ ПРИЙТИ -->
+    <section class="section" id="about">
+        <div class="section-heading">
+            <h2>почему вы должн пойт<span></span></h2>
+            <p>Почему стоит стать<br>частью програмы kkc.</p>
+        </div>
+
+        <div class="reasons-grid">
+            <div class="reason-card">
+                <span>01</span>
+                <h3>новые знакомства</h3>
+                <p>Познакомьтесь с командами</p>
+            </div>
+
+            <div class="reason-card">
+                <span>02</span>
+                <h3>весело </h3>
+                <p>Проведите время с друзьями </p>
+            </div>
+
+            <div class="reason-card">
+                <span>03</span>
+                <h3>вспоминание </h3>
+                <p>воспоминание о восхитительном дне </p>
+            </div>
+
+            <div class="reason-card">
+                <span>04</span>
+                <h3>счать частью команды</h3>
+                <p>битете мотивацией для каманд.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- РЕГИСТРАЦИЯ -->
+    <section class="section" id="register">
+        <div class="section-heading">
+            <h2>матч<span>.</span></h2>
+            <p>Не пропустите возможность<br>стать частью турнира </p>
+        </div>
+
+        <div class="countdown">
+            <div>
+                <span>день</span>
+                <strong>5</strong>
+            </div>
+            <b>:</b>
+            <div>
+                <span>месяц</span>
+                <strong>3</strong>
+            </div>
+            <b>:</b>
+            <div>
+                <span>год</span>
+                <strong>2026</strong>
+            </div>
+            
+
+        <!-- БИЛЕТЫ -->
+        <h3 class="ticket-heading" id="tickets">ВАРИАНТЫ БИЛЕТОВ</h3>
+
+        <div class="ticket-grid">
+
+            <div class="ticket-card ticket-blue">
+                <span>БАЗОВЫЙ</span>
+            
+                <strong>700сом</strong>
+                <p>Доступ ко всем основным выступлениям.</p>
+                <a href="#form">Выбрать билет </a>
+            </div>
+
+            <div class="ticket-card">
+                <span>стандарт </span>
+                <strong>1000сом</strong>
+                <p>Доступ к дополнительным активностям.</p>
+                <a href="#form">Выбрать билет ↗</a>
+            </div>
+
+            <div class="ticket-card">
+                <span>VIP </span>
+                <strong>2000сом</strong>
+                <p>личная встреча с командой</p>
+                <a href="#form">Выбрать билет ↗</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ФОРМА И МЕСТО -->
+    <section class="section contact" id="form">
+
+        <div class="contact-box">
+            <div class="contact-info">
+                <h2>ВСТРЕТИМСЯ<br>НА матче!</h2>
+                <p>Зарегистрируйтесь сейчас и получите доступ к мероприятию.</p>
+
+                <div class="contact-details">
+                    <div>
+                        <strong>📍 МЕСТО:</strong>
+                        <span>панфилов </span>
+                    </div>
+                    <div>
+                        <strong>📅 ДАТА:</strong>
+                        <span>5,3.2026</span>
+                        <button class="blue-button">Зарегистрироваться </button>
+                    </div>
+    
+
+        <div class="map">
+            <div class="map-lines"></div>
+            <div class="map-pin">●</div>
+            <span>турнир </span>
+        </div>
+
+    </section>
+
+    <!-- ПОДВАЛ -->
+    <footer class="footer">
+        <div>
+            <a href="#" class="logo">матч<span>.</span></a>
+            <p>СОЗДАЕМ ВОСПОИМИНАНИЯ ВМЕСТЕ .</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="#agenda">Программа</a>
+            <a href="#speakers">тренера</a>
+            <a href="#about">О СОБЫТИИ</a>
+            <a href="#tickets">БИЛЕТЫ</a>
+        </div>
+
+
+        <p class="copyright">© 2026 матч. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</p>
+    </footer>
+
+</main>
+</body>
+</html>
